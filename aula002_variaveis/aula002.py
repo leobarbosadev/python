@@ -1,9 +1,3 @@
-# Curso de Desenvolvimento de Sistemas
-# Turma 0152
-# Autor: Leonardo Barbosa
-# Data: 15/04/2024
-# Criando variáveis
-
 # importando a biblioteca de sistema
 import os
 
