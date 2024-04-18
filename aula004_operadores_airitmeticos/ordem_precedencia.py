@@ -1,3 +1,9 @@
+# Curso de Desenvolvimento de Sistemas
+# Turma 0152
+# Autor: Leonardo Barbosa
+# Data: 18/04/2024
+# Ordem de Precedência
+
 # imports
 import os
 
