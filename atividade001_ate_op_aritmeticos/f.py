@@ -10,6 +10,10 @@ import os
 
 os.system('cls')
 
+print('-' * 70)
+print('ENTRADA DE DADOS')
+print('-' * 70)
+
 #Entrada
 valor = float(input('Entre com um número: '))
 
