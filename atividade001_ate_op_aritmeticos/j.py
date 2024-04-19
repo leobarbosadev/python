@@ -19,7 +19,6 @@ base = float(input('Entre com o valor da base do retângulo: '))
 altura = float(input('Entre com o valor da altura do retângulo: '))
 
 # Processamento
-# 2*(base + altura)
 perimetro = 2 * (base + altura)
 
 # Saída
