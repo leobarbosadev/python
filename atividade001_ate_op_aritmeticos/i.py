@@ -29,5 +29,5 @@ conversao_em_dolar = valor_em_reais / cotacao_dolar
 print('-' * 70)
 print('CONVERSÃO DE VALORES')
 print('=' * 70)
-print(f'R${valor_em_reais:.2f} equivalem a ${conversao_em_dolar:.2f}')
+print(f'R${valor_em_reais:.2f} equivalem a US${conversao_em_dolar:.2f}')
 print()
