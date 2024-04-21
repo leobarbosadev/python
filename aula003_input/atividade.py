@@ -16,12 +16,11 @@ print('-' * 100)
 print('INSIRA OS DADOS')
 print('=' * 100)
 
-#Entrada
-nome = input('Coloque seu nome aqui: ')
-
 #Entrada com Casting
+nome = str(input('Coloque seu nome aqui: '))
 idade = int(input('Entre com sua idade: '))
 peso = float(input('Entre com seu peso: '))
+trabalho = True
 # trabalho = bool(input('Está trabalhando no momento?(Coloque true para sim'
 #                       + 'e false para não):'))
 pais = str(input('Em que país você nasceu? '))
