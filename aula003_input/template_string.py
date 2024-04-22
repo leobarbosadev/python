@@ -49,6 +49,6 @@ print(f'Rua............: {rua}')
 print(f'Número.........: {numero}')
 print(f'O ano atual é: {ano_atual}')
 print('-' * 70)
-# print('')
+print('')
 
 
