@@ -39,3 +39,7 @@ print(f'{numero} x 1 = {valor1} \n{numero} x 2 = {valor2}\n'
       + f'{numero} x 7 = {valor7} \n{numero} x 8 = {valor8}\n'
       + f'{numero} x 9 = {valor9} \n{numero} x 10 = {valor10}')
 print()
+
+
+
+
