@@ -19,10 +19,11 @@ resposta = ''
 
 # Condicional
 if valor % 2 == 0:
-    valor = int(valor)
-    resposta = f'Entrada incorreta, o valor {valor} é um inteiro!'# Não é uma boa prática fazer dessa forma {int(valor)} dentro da f-string, podemos fazer :.0f
+    # valor = int(valor)
+    # Não é uma boa prática fazer dessa forma {int(valor)} dentro da f-string, podemos fazer :.0f
+    resposta = f'Entrada incorreta, o valor {valor} é par!'
 else:
-    resposta = f'Entrada correta, o valor {valor} é um decimail!'
+    resposta = f'Entrada correta, o valor {valor} é ímpar!'
 
 # Saída
 print('=' * 70)
