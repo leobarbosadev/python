@@ -2,7 +2,7 @@
 # Turma 0152
 # Autor: Leonardo Barbosa
 # Data: 24/04/2024
-# Objetivo: Verificando um valor decimal
+# Objetivo: Verificando se um número é par ou ímpar
 
 import os
 
