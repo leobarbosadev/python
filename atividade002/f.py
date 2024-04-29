@@ -23,7 +23,9 @@ ano = int(input('Entre com um ano: '))
 resposta = ''
 
 #Condicional
-if ano % 4 == 0:
+if ano < 0:
+    resposta = 'Ano inválido'
+elif (ano % 4 == 0 and ano % 100 !=0 ) or (ano % 400== 0):
     resposta = f'O ano digitado foi {ano}, ele é bissexto'
 else:
     resposta = f'O ano digitado foi {ano}, ele não é bissexto'
