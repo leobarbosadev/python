@@ -25,7 +25,7 @@ elif  ((segmento1 < (segmento2 + segmento3)) and (segmento2 < (segmento1 + \
     resposta = f'As medidas formam um triângulo'
 else:
     resposta = (f'A soma dos valores: {segmento1}, {segmento2} e {segmento3}'
-                + f' pode formar um triângulo')
+                + f' não pode formar um triângulo')
 
 # Saída
 print()
