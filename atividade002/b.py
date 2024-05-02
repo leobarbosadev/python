@@ -19,22 +19,28 @@ print('-' * 80)
 numero1 = int(input('Entre com o 1º número: '))
 numero2 = int(input('Entre com o 2º número: '))
 numero3 = int(input('Entre com o 3º número: '))
-# maior = float()
-# menor = float()
-resposta = ''
+maior = float()
+menor = float()
 
-if numero1 > numero2 > numero3:
-    resposta = (f'O número {numero1} é maior que os número {numero2} e {numero3} '
-    + f'e o número {numero3} é o menor deles')
-# elif numero2 > numero3 and numero3 > numero1:
-#     resposta = (f'O número {numero2} é maior que os número {numero1} e {numero3} '
-#     + f'e o número {numero1} é o menor deles')
-# elif numero3 > numero2 and numero2 > numero1:
-#     resposta = (f'O número {numero3} é maior que os número {numero1} e {numero3} '
-#     + f'e o número {numero1} é o menor deles')
+#Achar os maiores
+if numero1 > numero2 and numero1 > numero3:
+    maior = numero1
+elif numero2 > numero1 and numero2 > numero3:
+    maior = numero2
+elif numero3 > numero2 and numero3 > numero1:
+    maior = numero3
+
+    
+#Achar os menores
+if numero1 < numero2 and numero1 < numero3:
+    menor = numero1
+elif numero2 < numero1 and numero2 < numero3:
+    menor = numero2
+elif numero3 > numero1 and numero3 < numero2:
+    menor = numero3
 else:
-    resposta = f'Todos são iguais'
+    resposta = f'Os números são iguais!!!'
     
 print('-' * 80)
-print(resposta)
+print(f'O maior número é: {maior} e o menor número é: {menor}')
 print()
