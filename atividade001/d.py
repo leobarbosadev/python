@@ -20,7 +20,7 @@ valor2 = float(input('Entre com o segundo núemro.: '))
 
 #Porcessamento
 divisao = valor1 / valor2
-
+# PRECISO TRATAR DIVISÃO POR 0 (try/catch)
 #Saída
 print('-' * 70)
 print('RESULTADO')
