@@ -14,5 +14,7 @@ numero = int(input('Entre com um número inteiro: '))
 if numero < 0:
     print('Número negativo, o resultado será um número complexo')
 else:
-    raiz = math.sqrt(numero)        
-    print(f'Raiz quadra de {numero} é {raiz}')
+    raiz = math.sqrt(numero)
+    raiz_arredondada = math.floor(raiz)
+
+print(f'A raiz de {numero} é {raiz}, sua raiz arredondada é {raiz_arredondada}')
