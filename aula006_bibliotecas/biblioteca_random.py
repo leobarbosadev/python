@@ -33,8 +33,8 @@ print('.' * 70)
 print('Embaralhar sequência')
 lista2 = ['Ágata', 'Coly', 'Isis', 'Bia']
 print(f'Lista antiga: {lista2}')
-# embaralhando = list(random.shuffle(lista)) dá erro
-# embaralhando = random.shuffle(lista2) saída vazia
+# embaralhado = list(random.shuffle(lista)) dá erro
+# embaralhado = random.shuffle(lista2) saída vazia
 random.shuffle(lista2)
 print(f'Lista nova: {lista2}')
 print('.' * 70)
