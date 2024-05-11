@@ -22,12 +22,12 @@ nota4 = float(input('Entre com a 4ª nota: '))
 
 #Processamento
 soma = nota1 + nota2 + nota3 + nota4
-media = soma / 4
+media = soma / 4 # (nota1 + nota2 + nota3 + nota4) / 4
 
 #Saída
 print('-' * 70)
 print('RESULTADO')
 print('=' * 70)
-print(f'Sua idade é: {media}')
+print(f'Sua média é: {media}')
 print('-' * 70)
 print()

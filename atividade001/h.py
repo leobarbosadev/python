@@ -17,6 +17,7 @@ print('-' * 70)
 # Entrada
 numero = int(input('Digite um número inteiro: '))
 
+#COM UM FOR É MAIS EFICAZ
 # Processamento
 valor1 = numero * 1
 valor2 = numero * 2
