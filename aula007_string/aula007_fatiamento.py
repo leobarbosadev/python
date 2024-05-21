@@ -14,7 +14,7 @@ print(f"String original: {frase}")
 
 # Fatiamento: acessando partes específicas da string
 #Primeiros cinco caracteres
-primeiros_cinco = frase[:5]
+primeiros_cinco = frase[:5] # SEMPRE VAI SER -1 EX INDICE 5 VAI EXIBIR ATÉ O INDICE 4
 print(f"Pimeiros cinco caracteres: {primeiros_cinco}")
 
 # Últimos dez caracteres
