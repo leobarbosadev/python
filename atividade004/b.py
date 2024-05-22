@@ -7,7 +7,7 @@ os.system('cls')
 
 nome = 'João da Silva'
 
-substituir = nome.replace('Silva','Oliveira')
+substituir = nome.replace('da Silva','de Oliveira')
 print(f'Nome original: {nome}')
 print(f'Nome novo: {substituir}')
 print()
