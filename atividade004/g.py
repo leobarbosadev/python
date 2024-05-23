@@ -12,13 +12,13 @@ os.system('cls')
 
 numero = int(input('Entre com um número inteiro: '))
 
-unidade = (numero % 10)
-dezena = (numero - unidade)
-centena = (numero // 100)
-milhar = (numero // 1000)
+unidade = numero % 10
+dezena = (numero % 100) // 10
+centena = (numero % 1000) // 100
+milhar = numero // 1000
 
 
 print(f'{unidade} unidades')
-# print(f'{dezena} dezenas')
-# print(f'{centena} centenas')
-# print(f'{milhar} unidade de milhar')
+print(f'{dezena} dezenas')
+print(f'{centena} centenas')
+print(f'{milhar} unidade de milhar')
