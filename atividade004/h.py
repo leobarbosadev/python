@@ -13,9 +13,8 @@ nome = input('Entre com o nome do aluno: ').lower()
 
 quantidade_o = nome.count('o')
 primeira_vez = nome.find('o') + 1 # Vai retornar a posição e não o índice
-
-ultima_posicao = len(nome) - nome[::-1].find('o')
+ultima_vez = nome.rfind('o') + 1
 
 print(f'A quantide de "o" é: {quantidade_o}, '
       + f'a primeira vez que aparece a letra o é na posição {primeira_vez},'
-      + f'A ultima vez é {ultima_posicao}')
+      + f'a ultima vez é {ultima_vez}')

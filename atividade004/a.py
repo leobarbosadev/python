@@ -9,6 +9,13 @@ nome = input('Entre com seu nome: ')
 nome_meio = input('Entre com o nome do meio: ')
 sobrenome = input('Entre com o sobrenome: ')
 
-lista = [nome , nome_meio, sobrenome]
+lista = [nome, nome_meio, sobrenome]
 juncao = " ".join(lista)
 print(f'A junção das strings ficam: {juncao}')
+
+if (nome, nome_meio, sobrenome) != juncao.isalpha():
+    print('Caracter inválido, digite somente letras!!!!')
+else:
+    lista = [nome, nome_meio, sobrenome]
+    juncao = " ".join(lista)
+    print(f'A junção das strings ficam: {juncao}')

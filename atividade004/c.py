@@ -5,10 +5,18 @@ import os
 
 os.system('cls')
 
-nome = input('Entre com seu nome: ')
+nome = input('Entre com seu nome: ').lower() # JÁ FAÇO A CONVERSÃO PARA MINÚSCULO
 
 print(f'Texto: {nome}')
-if 'Oliveira' in nome:
-    print(bool('Oliveira'))
+
+# if 'Oliveira' in nome:
+#     print(bool('Oliveira'))
+# else:
+#     print(bool())
+
+retorno = 'oliveira' in nome
+
+if retorno == True:
+    print(f'{retorno} Verdadeiro')
 else:
-    print(bool())
+    print(f'{retorno}False')
