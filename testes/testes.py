@@ -1,12 +1,13 @@
+import locale
+import os
 import datetime
 
-from datetime import datetime # Da biblioteca datetime, importe somente a função datetime.
-from datetime import date # Da biblioteca datetime, importe somente a função date.
 
+os.system('cls')
 
-data = datetime.now()
-data2 = datetime.now().year
-data3 = datetime.datetime.now().year
-print(data)
-print(data2)
-print(data3)
+data = datetime.datetime.now()
+
+locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
+mes = data.strftime('%A')
+print(mes)
+print('Sábado')
