@@ -9,7 +9,6 @@ print('=' * 70)
 print()
 
 for c in range(0, 10):
-    
     print(f'Valor {c}')
     
     # Condição para terminar a contagem
