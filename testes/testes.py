@@ -18,7 +18,7 @@ print(mes)
 
 
 print('-' * 80)
-print('*** ENTRADA DE DADOS ***')
+print('*** ESTRUTURA DE CONTROLE FOR RANGE COM VALIDAÇÃO E CASTING ***')
 print('=' * 80)
 
 for c in range(0, 5):
