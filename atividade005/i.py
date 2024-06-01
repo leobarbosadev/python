@@ -12,6 +12,10 @@ import os
 
 os.system('cls')
 
+print('-' * 80)
+print('*** ESTOU EM LOOPING ***')
+print('=' * 80)
+
 while (True):
     frase = input('Estou em Looping... digite uma letra [f - Finalizar]: ').lower()
     
