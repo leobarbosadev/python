@@ -35,3 +35,14 @@
 #     else:
 #         print(f'"{numero}" Entrada inválida!')
 #         print()
+
+
+# numero = 1
+# contador = 0  # QTD DE MULTIPLICAÇÃO
+# for c in range(0, 20):
+#     if c % numero != 0:
+#         numero +=1
+#         contador += 1
+#         print(c)
+#     if contador == 2:
+#         print(c)
