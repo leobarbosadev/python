@@ -12,6 +12,10 @@ import os
 
 os.system('cls')
 
+print('-' * 80)
+print('*** NÚMEROS PRIMOS ***')
+print('=' * 80)
+
 inicio = int(input('Entre com o início do intervalo: '))
 fim = int(input('Entre com o final do intervalo....:'))
 
