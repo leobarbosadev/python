@@ -20,4 +20,4 @@ inicio = int(input('Entre com o início do intervalo: '))
 fim = int(input('Entre com o final do intervalo....:'))
 
 for c in range(inicio, fim):
-    
+    pass

@@ -5,8 +5,10 @@ import os
 
 os.system('cls')
 
-numero = 2
+numero = 3
 for c in range(0, 20):
-    if c % numero != 0:
-        # numero = numero + c
+    if c < 2:
+        continue
+    elif (c % numero != 0):
         print(c)
+        
