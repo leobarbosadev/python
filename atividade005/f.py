@@ -13,5 +13,7 @@ for c in range(0, 101):
 
     if contador == 2:
         print(c, end= ' | ')
+print()
+print()
 
 
