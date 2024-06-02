@@ -11,4 +11,5 @@ for c in range(0, 101):  # PARA EXIBIR ATÉ 100, PRECISO COLOCAR 101, POIS O ÚL
     par = c % 2 == 0  # RETORNA True e False
     if par == True:
         quantidade_par += 1
-print(quantidade_par)
+print(f' A quantidade de números pares entre 0 e 100 é de {quantidade_par}')
+print()
