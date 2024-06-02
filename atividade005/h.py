@@ -17,7 +17,7 @@ print('=' * 80)
 print()
 
 inicio = int(input('Digite o início do intervalo...: '))
-fim = int(input('Digite o fim do intervalo......: ')) # + 1
+fim = int(input('Digite o fim do intervalo......: ')) + 1
 print()
 
 for c in range(inicio, fim):
