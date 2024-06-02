@@ -5,8 +5,6 @@
 # Faça um programa que calcule os números primos
 # em um intervalo pré-determinado pelo usuário.
 
-# entre 0 e 20 = 2, 3, 5, 7, 11, 13, 17 e 19
-
 import os
 
 
