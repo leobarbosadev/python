@@ -13,6 +13,7 @@ os.system('cls')
 print('-' * 80)
 print('*** NÚMEROS PRIMOS COM ENTRADA DE DADOS ***')
 print('=' * 80)
+print()
 
 inicio = int(input('Entre com o início do intervalo: '))
 fim = int(input('Entre com o final do intervalo.: '))
