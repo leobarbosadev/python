@@ -7,7 +7,6 @@ os.system('cls')
 
 nome = input('Entre com seu nome: ').lower()
 
-
 # Validação
 if not (nome.replace(' ', '').isalpha()):
     print('Contém caracter inválido!!!')
