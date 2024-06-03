@@ -13,9 +13,9 @@ os.system('cls')
 numero = int(input('Entre com um número inteiro: '))
 
 unidade = numero % 10
-dezena = (numero % 100) // 10
-centena = (numero % 1000) // 100
-milhar = numero // 1000
+dezena = (numero // 10) % 10
+centena = (numero // 100) % 10
+milhar = (numero // 1000) % 10
 
 
 print(f'{unidade} unidades')
