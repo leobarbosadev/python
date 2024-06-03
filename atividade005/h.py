@@ -18,10 +18,18 @@ print()
 
 inicio = int(input('Digite o início do intervalo...: '))
 fim = int(input('Digite o fim do intervalo......: ')) + 1
+print('-' * 80)
+print('NÚMEROS PARA SEREM EXCLUÍDOS')
+print('-' * 80)
+numero_1 = int(input('Entre com o 1º número a ser excluído: '))
+numero_2 = int(input('Entre com o 2º número a ser excluído: '))
+numero_3 = int(input('Entre com o 3º número a ser excluído: '))
+
 print()
 
+
 for c in range(inicio, fim):
-    if c == 1 or c == 2 or c == 3:
+    if c == numero_1 or c == numero_2 or c == numero_3:
         continue
     print(f'O número é {c}')
 print('-' * 80)
