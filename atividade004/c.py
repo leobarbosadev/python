@@ -7,7 +7,7 @@ os.system('cls')
 
 nome = input('Entre com seu nome: ').lower() # JÁ FAÇO A CONVERSÃO PARA MINÚSCULO
 
-print(f'Texto: {nome}')
+print(f'Texto: {nome.title()}')
 
 # if 'Oliveira' in nome:
 #     print(bool('Oliveira'))
@@ -19,4 +19,4 @@ retorno = 'oliveira' in nome
 if retorno == True:
     print(f'{retorno} Verdadeiro')
 else:
-    print(f'{retorno}False')
+    print(f'{retorno} Falso')
