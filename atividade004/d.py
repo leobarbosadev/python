@@ -12,7 +12,7 @@ maiusculas = frase.upper()
 minusculas = frase.lower()
 quantidade = len(frase)
 lista = frase.split(' ')
-palavra = ''.join(lista[1])
+palavra = lista[1]
 segunda_palavra = len(palavra)
 
 print(f'A frase digitada foi: {frase}\n'
