@@ -10,7 +10,7 @@ nome_meio = input('Entre com o nome do meio: ')
 sobrenome = input('Entre com o sobrenome: ')
 
 lista = [nome, nome_meio, sobrenome]
-juncao = " ".join(lista)
+juncao = ' '.join(lista)
 print(f'A junção das strings ficam: {juncao}')
 
 # Tentativa de validação
