@@ -14,8 +14,8 @@ letra_i = frase.count('I')
 letra_o = frase.count('O')
 letra_u = frase.count('U')
 
-print(f'A vogal A foi usada {letra_a} vezes\n'
-      + f'A vogal E foi usada {letra_a} vezes\n'
-      + f'A vogal I foi usada {letra_a} vezes\n'
-      + f'A vogal O foi usada {letra_a} vezes\n'
-      + f'A vogal U foi usada {letra_a} vezes\n')
+print(f'A vogal A foi usada {letra_a} vez(es)\n'
+      + f'A vogal E foi usada {letra_a} vez(es)\n'
+      + f'A vogal I foi usada {letra_a} vez(es)\n'
+      + f'A vogal O foi usada {letra_a} vez(es)\n'
+      + f'A vogal U foi usada {letra_a} vez(es)\n')
