@@ -24,7 +24,7 @@ print(f'Fatiando uma Lista: {lista_fatiada1}\n')
 print(f'Fatiando uma Lista: {lista_fatiada2}\n')
 print(f'Fatiando uma Lista: {lista_fatiada3}\n')
 print(f'Fatiando uma Lista: {lista_fatiada4}\n')
-print(f'Fatiando uma Lista: {lista_fatiada5}\n')
+print(f'Fatiando uma Lista: {lista_fatiada5}')
 
 print('-' * 70)
 print('Fim do programa!')
