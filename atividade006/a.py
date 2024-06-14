@@ -1,3 +1,7 @@
+# Curso de Desenvolvimento de Sistemas
+# Turma 0152
+# Autor: Leonardo Barbosa
+# Data: 17/06/2024
 # a)Crie a lista [1, 2, 3, 5, 6] e depois insira o valor que está faltando na posição correta.
 
 import os
