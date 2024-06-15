@@ -21,4 +21,4 @@ inserir_item_lista = lista.insert(3, 4)
 
 print(f'Lista completa: {lista}')
 
-#Colocar input e sort()
+# Colocar input e sort()
