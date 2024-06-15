@@ -10,6 +10,10 @@ import os
 
 os.system('cls')
 
+print('-' * 80)
+print('BUSCANDO NA LISTA')
+print('=' * 80)
+
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
 intervalo_1_a_9 = lista[0:9]
