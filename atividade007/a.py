@@ -9,19 +9,23 @@ import os
 
 os.system('cls')
 
-while True:
-    notas = []
-    print('Digite "0" ou "s" para sair do sistema')
-    entrada = input('Entre com uma nota: ')
-    notas.append(entrada)
-    print()
+print('-' * 80)
+print('NOTAS')
+print('=' * 80)
 
-    if entrada == '0' or entrada == 's'.lower():
-        print('Sistema finalizado')
-        print()
-        break
-    else:
-        notas.append(entrada)
+
+notas = []
+entrada = ""
+
+while entrada.lower() != 's' and entrada != '0':
+  entrada = input('Digite uma nota: [0 ou s - Sair] ')
+  notas.append(entrada)
+
+  if entrada.lower() == 's' or entrada == '0':
+    print()
+    print('Programa finalizado!!!')
+    print()
+    notas.pop()
 
     # if not (entrada == '0' or entrada.lower() == 's'):
     #   notas.append(entrada)
