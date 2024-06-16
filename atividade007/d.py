@@ -2,7 +2,7 @@
 # Turma 0152
 # Autor: Leonardo Barbosa
 # Data: 17/06/2024
-# d)Utilizando o exercício anterior, coloque todas as listas em ordem crescente de valor
+# d) Utilizando o exercício anterior, coloque todas as listas em ordem crescente de valor
 
 import os
 import random
@@ -23,7 +23,7 @@ for i in range(0, len(lista), 10):
     lista_fatiada.append(lista[i:i + 10])
 print('Listas Fatiadas')
 for indice, lista in enumerate(lista_fatiada, start=1):
-  lista.sort()
-  # lista_ordenada = sorted(lista)
-  print(f'Lista ordenada {indice}: {lista}.')
-  print()
+    lista.sort()
+    # lista_ordenada = sorted(lista)
+    print(f'Lista ordenada {indice}: {lista}.')
+    print()
