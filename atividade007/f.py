@@ -19,7 +19,7 @@ lista = []
 lista_pares = []
 lista_impares = []
 
-while len(lista) <= 6:
+while len(lista) <= 6: # PARA CRIAR UMA LISTA COM 7 NÚMEROS, DEFINO O TAMANHO COMO 7 (DE 0 A 6)
     entrada = int(input('Entre com um número: '))
     lista.append(entrada)
 
