@@ -9,6 +9,12 @@ import os
 
 os.system('cls')
 
+os.system('cls')
+
+print('-' * 80)
+print('PEDRO TÁ LISTA?')
+print('=' * 80)
+
 nomes = []
 
 while len(nomes)  <= 5: # PARA CRIAR UMA LISTA COM 6 NOMES, DEFINO O TAMANHO COMO 5 (DE 0 A 5)

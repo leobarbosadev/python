@@ -9,6 +9,12 @@ import random
 
 os.system('cls')
 
+os.system('cls')
+
+print('-' * 80)
+print('LISTA EM ORDEM CRESCENTE')
+print('=' * 80)
+
 lista = []
 lista_fatiada = []
 
