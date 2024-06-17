@@ -15,8 +15,6 @@
 # print(mes)
 
 
-
-
 # print('-' * 80)
 # print('*** ESTRUTURA DE CONTROLE FOR RANGE COM VALIDAÇÃO E CASTING ***')
 # print('=' * 80)
@@ -29,7 +27,7 @@
 #         print(f'"{numero}" Entrada inválida')
 #         print()
 #     elif (int(numero) >= 0 and int(numero) <= 5):
-        
+
 #         print(f'O número {numero} está dentro do intervalo [0-5]!')
 #         print()
 #     else:
@@ -46,3 +44,8 @@
 #         print(c)
 #     if contador == 2:
 #         print(c)
+
+
+# Inicialização da lista de dados
+
+              
