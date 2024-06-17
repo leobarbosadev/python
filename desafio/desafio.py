@@ -20,10 +20,10 @@ nomes = []
 # Loop principal do programa
 while True:
     print("\nMenu:")
-    print("1. Criar contato")
-    print("2. Mostrar todos os contatos")
-    print("3. Atualizar contato")
-    print("4. Deletar contato")
+    print("1. Criar nome")
+    print("2. Mostrar todos os nomes")
+    print("3. Atualizar nome")
+    print("4. Deletar nome")
     print("5. Sair")
 
     opcao = input("Escolha uma opção (1-5): ")
