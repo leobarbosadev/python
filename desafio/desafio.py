@@ -27,17 +27,20 @@ while True:
     print("5. Sair")
 
     opcao = input("Escolha uma opção (1-5): ")
+    print()
     # Criar nome (C - CREATE)
     if opcao == '1':
         nome = input('Digite um nome: ').capitalize()
-        print('Nome adicionado')
         nomes.append(nome)
+        print('Nome adicionado')
+        os.system('cls')
 
     # Ler todos os nome  (R - READ)
     elif opcao == '2':
-      # for nome in nomes:
-        # print(nome, end=', ')
-        print(f'Nomes cadastrados: {nomes}')
+      for nome in nomes:
+        print(nome, end=' | ')
+      print()
+        # print(f'Nomes cadastrados: {nomes}')
 
     # Atualizar nome (U - UPDATE)
     elif opcao == '3':
