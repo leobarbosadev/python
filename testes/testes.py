@@ -46,6 +46,5 @@
 #         print(c)
 
 
-# Inicialização da lista de dados
-
+# Inicialização da lista de dados 231
               
