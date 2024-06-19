@@ -5,7 +5,7 @@ import os
 
 os.system('cls')
 
-for c in range(0, 100):
+for c in range(0, 101):
     numero = int(c + 1)
     par = numero % 2 == 0
     
