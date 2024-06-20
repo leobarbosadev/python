@@ -44,7 +44,3 @@
 #         print(c)
 #     if contador == 2:
 #         print(c)
-
-
-# Inicialização da lista de dados 231
-              
