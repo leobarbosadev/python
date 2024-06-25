@@ -11,22 +11,36 @@ import os
 
 os.system('cls')
 
-# Solicita ao usuário a quantidade de itens que vai ser inserido
-quantidade_itens = int(input('Quantos itens deseja adicionar? '))
-
 # Criando um conjunto vazio
 conjunto_numeros = set()
 
-# Entrada de 
-
 while True:
     print('Utilizando o método ADD()')
-    # Adicionando valores a lista com uma entrada
-    
-    numero = int(input('Entre com um número [0 - sair]: '))
-    conjunto_numeros.add(numero)
-    os.system('cls')
+    print()
 
-    for i in range(numero):
-        print(f'Os núemros adicionados foram: {numero}')
+    # Solicita ao usuário a quantidade de itens que vai ser inserido
+    quantidade_itens = input('Quantos itens deseja adicionar? ')
+
+    # Validando a quantidade_itens para entrar somente com número inteiro
+    if (quantidade_itens == '') or not (quantidade_itens.isnumeric()):
+        quantidade_itens = 0
+    else:
+        quantidade_itens = int(quantidade_itens)
+
+    for item in range(quantidade_itens):
+        # Adicionando valores a lista com uma entrada
+        item = int(input(f'Entre com um o {item + 1}º número: '))
+        conjunto_numeros.add(item)
+
+    print('Os itens presentes no conjunto são: ')
+    for item in conjunto_numeros:
+        print(item, end=' | ')
+    print()
+    print()
+    
+    continuar = input('Deseja finalizar o programa? (s/n)')
+    if continuar == 's':
+        os.system('cls')
         break
+    else:
+        os.system('cls')
