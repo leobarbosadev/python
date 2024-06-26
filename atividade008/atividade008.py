@@ -31,6 +31,7 @@ while True:
         # Adicionando valores a lista com uma entrada
         item = int(input(f'Entre com um o {item + 1}º número: '))
         conjunto_numeros.add(item)
+        print()
 
     print('Os itens presentes no conjunto são: ')
     for item in conjunto_numeros:
