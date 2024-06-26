@@ -20,7 +20,8 @@ while True:
 
     # Solicitação da escolha do usuário
     opcao = input('Escolha uma opção (1-6): ')
-
+    
+    os.system('cls')
     if opcao == '1':
         # Adiciona um novo par chave-valor ao dicionário
         chave = input('Digite a chave: ')
@@ -40,6 +41,7 @@ while True:
     elif opcao == '4':
         # Cria uma cópia do dicionário usando copy() e exibe a cópia
         copia_dicionario = meu_dicionario.copy()
+        print(f'Cópia do dicionário {copia_dicionario}')
 
     elif opcao == '5':
         # Limpa o dicionário usando clear()
