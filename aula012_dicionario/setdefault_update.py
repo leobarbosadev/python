@@ -33,8 +33,9 @@ while True:
 
     elif opcao == '3':
         # Atualizar o dicionário usando update()
-        novos_pares = input(
-            'Digite os novos pares chave-valor separados por dois pontos: ')
+        # novos pares chave_valor no formato: chave1:valor1,chave2:valor2
+        novos_pares = input('Digite os novos pares chave-valor'\
+                            ' no formato chave1:valor1,chave2:valor2: ')
         novos_pares_lista = novos_pares.split(',')
         novos_dados = {}
         for par in novos_pares_lista:
