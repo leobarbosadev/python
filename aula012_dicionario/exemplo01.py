@@ -10,7 +10,7 @@ periodica = []
 
 #Entrada de dados
 for c in range(2): # Considerando a entrada de 2 elementos
-    print(f'Entrada de dados {c + 1}:')
+    print(f'Entrada de dados {c + 1}: ')
     simbolo = str(input('Símbolo do elemento: '))
     nome = str(input('Nome do elemento: '))
     
