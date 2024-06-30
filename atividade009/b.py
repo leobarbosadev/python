@@ -1,4 +1,8 @@
-# b)Utilizando o exercício anterior,  adicione mais 2 elementos ao dicionário.
+# Curso de Desenvolvimento de Sistemas
+# Turma 0152
+# Autor: Leonardo Barbosa
+# Data: 01/07/2024
+# b) Utilizando o exercício anterior,  adicione mais 2 elementos ao dicionário.
 
 import os
 

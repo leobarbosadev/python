@@ -1,7 +1,8 @@
-# POSSO TER UMA LISTA DE DICIONÁRIOS MAS NÃO UM DICIONÁRIO DE LISTAS
-# Trabalhar para colocar entrada de dados
-
-# a)Faça um programa para criar um dicionário com 4 elementos.
+# Curso de Desenvolvimento de Sistemas
+# Turma 0152
+# Autor: Leonardo Barbosa
+# Data: 01/07/2024
+# a) Faça um programa para criar um dicionário com 4 elementos.
 import os
 
 
