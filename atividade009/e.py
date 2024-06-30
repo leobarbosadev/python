@@ -25,8 +25,8 @@ for c in range(5):
     # ADICIONA AS ENTRADAS DIGITAS ACIMA NO DICIONÁRIO
     ferramentas[chave] = valor
 
-# VARREDURA
 print('Elementos: ')
+# VARREDURA
 for chave, valor in ferramentas.items():
     print(f'{chave.capitalize()}:{valor}', end=' | ')
 print()
