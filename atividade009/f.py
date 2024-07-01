@@ -35,7 +35,7 @@ print('-' * 70)
 print('LISTA COM TODOS OS VINHOS')
 print('=' * 70)
 for elemento in lista_vinhos:  # PARA CADA ELEMENTO NA LISTA
-    for chave, valor in elemento.items():  # PARA CADA CHAVE E VALOR DO DICIONÁRIO
+    for chave, valor in elemento.items():  # PARA CADA CHAVE E VALOR NO DICIONÁRIO
         print(f'{chave.capitalize()}:{valor.capitalize()}', end=' | ')
     print()
 print()
