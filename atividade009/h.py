@@ -2,7 +2,7 @@
 # Turma 0152
 # Autor: Leonardo Barbosa
 # Data: 01/07/2024
-#h) Faça um programa para ler o dicionário 
+# h) Faça um programa para ler o dicionário
 # nomes = {‘nome’: ’John, ‘idade’: 40,‘peso’: 80, ‘altura’: 1.70}.
 # Em seguida realize as seguintes ações:
 # - Listar chaves e valores com laço - Deletar o peso
@@ -18,5 +18,12 @@ print('=' * 70)
 
 nomes = {'nome': 'John', 'idade': 40, 'peso': 80, 'altura': 1.70}
 
-if nomes:
-    print(f'Itens do dicionário: {nomes.items()}')
+print('Dicionário original')
+print(nomes)
+print()
+
+apagar = nomes.pop('peso')
+
+print('Dicionário após exclusão do peso')
+print(nomes)
+print()
