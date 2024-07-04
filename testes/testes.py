@@ -44,3 +44,10 @@
 #         print(c)
 #     if contador == 2:
 #         print(c)
+
+
+# dicionario = {
+#     'chave1': [1, 2, 3],
+#     'chave2': ['a', 'b', 'c'],
+#     'chave3': [True, False]
+# }
