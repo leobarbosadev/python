@@ -51,3 +51,20 @@
 #     'chave2': ['a', 'b', 'c'],
 #     'chave3': [True, False]
 # }
+# set1 = {1, 2, 3}
+# set2 = {3, 4, 5, 6}
+# set3 = {3, 7, 8, 9}
+
+# set_juntos = set1.union(set2, set3)
+# set_juntos2 = set1 | set2 | set3
+# adicionar = set1.add(10)
+# remover = set2.discard(5)
+# intersecao = set1.intersection(set2, set3)
+# intersecao2 = set1 & set2 & set3
+
+
+# print(intersecao)
+# print(intersecao2)
+# print(set1)
+# print(set_juntos)
+# # print(set_juntos2)
