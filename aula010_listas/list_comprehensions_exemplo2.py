@@ -16,10 +16,10 @@ for item in lista_numeros:
     lista_com_juros.append(item + (item * 0.10))
 
 print('Aplicando 10% de juros: forma normal')
-print(f'Lista triplicada: {lista_com_juros}')
+print(f'Lista acrescida de 10%: {lista_com_juros}')
 print()
 
 #List Comprehensions
 lista_com_juros_2 = [item + (item * 0.10) for item in lista_numeros]
 print('Aplicando 10% de juros: List Comprehensions')
-print(f'Lista triplicada: {lista_com_juros_2}')
+print(f'Lista acrescida de 10%: {lista_com_juros_2}')
