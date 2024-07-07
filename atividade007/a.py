@@ -15,7 +15,7 @@ print('=' * 80)
 
 
 notas = []
-entrada = ""
+entrada = ''
 
 while True:
   entrada = input('Digite uma nota: [0 ou s - Sair] ')
