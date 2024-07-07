@@ -17,7 +17,7 @@ print('=' * 80)
 notas = []
 entrada = ""
 
-while entrada.lower() != 's' and entrada != '0':
+while True:
   entrada = input('Digite uma nota: [0 ou s - Sair] ')
   notas.append(entrada)
 
@@ -26,6 +26,7 @@ while entrada.lower() != 's' and entrada != '0':
     print('Programa finalizado!!!')
     print()
     notas.pop()
+    break
 
     # if not (entrada == '0' or entrada.lower() == 's'):
     #   notas.append(entrada)
