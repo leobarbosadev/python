@@ -75,3 +75,25 @@
 # # print(set_juntos2)
 
 # ---------- DICIONÁRIO ----------
+import random
+
+lista = [{1998: 'Teste 1'},
+         {1999: 'Teste 2'},
+         {2000: 'Teste 3'},
+         {2001: 'Teste 4'},
+         {2002: 'Teste 5'},
+         {2003: 'Teste 6'}
+         ]
+
+# Selecionar um dicionário aleatório da lista
+dicionario_aleatorio = random.choice(lista)
+
+# Obter a chave e o valor do dicionário aleatório
+chave_aleatoria = list(dicionario_aleatorio.keys())[0]
+valor_aleatorio = dicionario_aleatorio[chave_aleatoria]
+
+# Selecionar um dicionário aleatório da lista
+dicionario_aleatorio = random.choice(lista)
+
+# Exibir o valor
+print(valor_aleatorio)
