@@ -51,6 +51,8 @@
 #     'chave2': ['a', 'b', 'c'],
 #     'chave3': [True, False]
 # }
+
+# ---------- SET ----------
 # set1 = {1, 2, 3}
 # set2 = {1, 2, 3, 4, 5, 6}
 # set3 = {3, 7, 8, 9}
@@ -72,3 +74,4 @@
 # print(set_juntos)
 # # print(set_juntos2)
 
+# ---------- DICIONÁRIO ----------
