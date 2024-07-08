@@ -9,8 +9,6 @@ import os
 
 os.system('cls')
 
-os.system('cls')
-
 print('-' * 80)
 print('PEDRO TÁ LISTA?')
 print('=' * 80)
