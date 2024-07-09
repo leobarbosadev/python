@@ -76,23 +76,33 @@
 
 # ---------- DICIONÁRIO ----------
 import random
+import os
+
+
+os.system('cls')
+
+curiosidade99 = ['Teste 1', 'Teste 1B', 'Teste 1C']
+
+curiosidade_aleatoria = random.choice(curiosidade99)
 
 lista = [
-         {'1999': 'Teste 2'},
-         {'1999': 'Teste 2-b'},
-         {'2000': 'Teste 3'},
-         {'2001': 'Teste 4'},
-         {'2002': 'Teste 5'},
-         {'2003': 'Teste 6'}
-         ]
+    {'1999': curiosidade_aleatoria},
+    {'2000': 'Teste 2'},
+    {'2001': 'Teste 3'},
+    {'2002': 'Teste 4'},
+]
 
-entrada = input('Entre com seu ano de nascimento:')
+entrada = input('Entre com seu ano de nascimento: ')
 for i in lista:
     for chave in i:
         if entrada in chave:
+            # curiosidade_aleatoria = random.choice(lista)
             print(f'{i[entrada]}')
-            
-            
+
+
+# curiosidade_aleatoria = random.choice(lista[0])
+# print(curiosidade_aleatoria)
+
 # Selecionar um dicionário aleatório da lista
 # dicionario_aleatorio = random.choice(lista)
 
