@@ -81,22 +81,27 @@ import os
 
 os.system('cls')
 
-curiosidade99 = ['Teste 1', 'Teste 1B', 'Teste 1C']
+curiosidade1999 = ['Teste 1999', 'Teste 1999B', 'Teste 1999C']
+curiosidade2000 = ['Teste 2000', 'Teste 2000B', 'Teste 2000C']
+curiosidade2001 = ['Teste 2001', 'Teste 2001B', 'Teste 2001C']
+curiosidade2002 = ['Teste 2002', 'Teste 2002B', 'Teste 2002C']
 
-curiosidade_aleatoria = random.choice(curiosidade99)
+curiosidade_aleatoria1999 = random.choice(curiosidade1999)
+curiosidade_aleatoria2000 = random.choice(curiosidade2000)
+curiosidade_aleatoria2001 = random.choice(curiosidade2001)
+curiosidade_aleatoria2002 = random.choice(curiosidade2002)
 
 lista = [
-    {'1999': curiosidade_aleatoria},
-    {'2000': 'Teste 2'},
-    {'2001': 'Teste 3'},
-    {'2002': 'Teste 4'},
+    {'1999': curiosidade_aleatoria1999},
+    {'2000': curiosidade_aleatoria2000},
+    {'2001': curiosidade_aleatoria2001},
+    {'2002': curiosidade_aleatoria2002},
 ]
 
 entrada = input('Entre com seu ano de nascimento: ')
 for i in lista:
     for chave in i:
         if entrada in chave:
-            # curiosidade_aleatoria = random.choice(lista)
             print(f'{i[entrada]}')
 
 
