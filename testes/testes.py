@@ -115,3 +115,18 @@ for i in lista:
 
 # Exibir o valor
 # print(valor_aleatorio)
+
+
+# #Funcao sem return é void
+# def soma(a, b):
+#     """_summary_
+
+#     Args:
+#         a (_type_): _description_
+#         b (_type_): _description_
+
+#     Returns:
+#         _type_: _description_
+#     """    
+#     resultado = a + b
+#     return resultado # CASO EU PASSAR ALGUM VALOR AQUI É ARGUMENTO
