@@ -135,3 +135,46 @@ for i in lista:
 #     """    
 #     resultado = a + b
 #     return resultado # CASO EU PASSAR ALGUM VALOR AQUI É ARGUMENTO
+
+
+
+
+# for aluno in alunos:
+    # print(f'Nome: {alunos['nome']}')
+
+
+# def cadastrar_aluno():
+#     alunos = []  # Lista para armazenar os dados dos alunos
+    
+#     # Loop para cadastrar os dados de três alunos
+#     for i in range(3):  # Altere o número conforme necessário
+#         print(f"Cadastro do aluno {i+1}:")
+#         nome = input("Nome: ")
+#         matricula = input("Matrícula: ")
+#         data_nascimento = input("Data de Nascimento (DD/MM/AAAA): ")
+        
+#         # Criando um dicionário com os dados do aluno
+#         aluno = {
+#             'nome': nome,
+#             'matricula': matricula,
+#             'data_nascimento': data_nascimento
+#         }
+        
+#         # Adicionando o aluno à lista de alunos
+#         alunos.append(aluno)
+        
+#     return alunos
+
+# def imprimir_alunos(alunos):
+#     print("\nDados dos alunos cadastrados:")
+    
+#     # Iterando sobre a lista de alunos e imprimindo os dados
+#     for aluno in alunos:
+#         print(f"Nome: {aluno['nome']}")
+#         print(f"Matrícula: {aluno['matricula']}")
+#         print(f"Data de Nascimento: {aluno['data_nascimento']}")
+#         print()  # Linha em branco para separar os dados de cada aluno
+
+# # Testando a função
+# alunos_cadastrados = cadastrar_aluno()
+# imprimir_alunos(alunos_cadastrados)
