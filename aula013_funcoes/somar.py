@@ -1,12 +1,12 @@
 def limpa_tela():  # DEFINIÇÃO DE FUNÇÃO
-    """FUNÇÃO PARA LIMPAR OTERMINAL
+    """FUNÇÃO PARA LIMPAR O TERMINAL
     """
     import os
     os.system('cls')
 
 
 # Funcao sem return é void
-def soma(a, b):
+def soma(a, b): # ISSO SÃO PARÂMETROS
     """FUNÇÃO PARA SOMAR 2 NÚMEROS # DOCSTRING
 
     Args:
@@ -16,7 +16,7 @@ def soma(a, b):
     Returns:
         Retorna a soma de 2 números
     """
-    return a + b  # CASO EU PASSAR ALGUM VALOR AQUI É ARGUMENTO
+    return a + b
 
 
 def firula():
@@ -26,7 +26,7 @@ def firula():
 
 
 # Chamando a Função
-limpa_tela()
+limpa_tela() # CASO EU PASSAR ALGUM VALOR AQUI É ARGUMENTO
 firula()
 resposta = soma(1, 2)  # INVOCANDO UMA FUNÇÃO (ISSO É UM RETORNO DIRETO)
 print(f'A soma dos 2 números é: {resposta}')

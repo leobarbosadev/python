@@ -9,21 +9,23 @@ import os
 
 os.system('cls')
 
-
+lista = []
 def cadastrar_aluno(nome, matricula,data_nascimento):
     
     dicionario_aluno = {}
-    lista = []
     
     dicionario_aluno['nome'] = nome
     dicionario_aluno['matricula'] = matricula
     dicionario_aluno['data_nascimento'] = data_nascimento
     
-    lista.append(dicionario_aluno.copy())
+    lista.append(dicionario_aluno)
     
     for i in lista:
-        for chave, valor
+        for chave, valor in dicionario_aluno:
+            print(f'{chave}:{valor}')
     
 cadastro = dict(nome='Joao', matricula='002233', data_nascimento='10/03/1974')
+print(cadastrar_aluno(**cadastro))
+
 
 
