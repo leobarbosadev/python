@@ -178,3 +178,11 @@ for i in lista:
 # # Testando a função
 # alunos_cadastrados = cadastrar_aluno()
 # imprimir_alunos(alunos_cadastrados)
+
+# ---------- FUNÇÃO ----------
+# def posicional(nascimento, nascionalidade, nome):
+#     print(f'A sua nascionalidade é {nascionalidade}')
+#     print(f'Bem-vindo(a) ao sistema SENAC, {nome}!')
+#     print(f'O ano de nascimento da {nome} é {nascimento}.')
+    
+# posicional('Brasileiro', 'Zé', 2000)
