@@ -23,5 +23,4 @@ def verificar_aluno():
     else:
         print(f'Nome não encontrado no dicionário {dicionario_aluno['nome']}')
 
-
 verificar_aluno()
