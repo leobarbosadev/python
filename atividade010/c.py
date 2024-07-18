@@ -11,4 +11,17 @@ import os
 
 os.system('cls')
 
-def verficar_aluno():
+
+dicionario_aluno = {'nome': 'Leonardo',
+                    'matricula': '0011AB', 'nascimento': '03/09/1995'}
+
+
+def verificar_aluno():
+    if dicionario_aluno['nome'] == 'Leonardo':
+        for chave, valor in dicionario_aluno.items():
+            print(f'{chave}: {valor}')
+    else:
+        print(f'Nome não encontrado no dicionário {dicionario_aluno['nome']}')
+
+
+verificar_aluno()
