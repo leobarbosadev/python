@@ -19,20 +19,20 @@ nomes = []
 
 # Loop principal do programa
 while True:
-    # print("\nMenu:")
-    # print("1. Criar nome")
-    # print("2. Mostrar todos os nomes")
-    # print("3. Atualizar nome")
-    # print("4. Deletar nome")
-    # print("5. Sair")
-    # opcao = input("Escolha uma opção (1-5): ")
+    # print('\nMenu:')
+    # print('1. Criar nome')
+    # print('2. Mostrar todos os nomes')
+    # print('3. Atualizar nome')
+    # print('4. Deletar nome')
+    # print('5. Sair')
+    # opcao = input('Escolha uma opção (1-5): ')
 
-    opcao = input("Escolha uma opção (1-5)\n"
-                  + f"1. Criar nome\n"
-                  + f"2. Mostrar todos os nomes\n"
-                  + f"3. Atualizar nome\n"
-                  + f"4. Deletar nome\n"
-                  + f"5. Sair\n\n")
+    opcao = input('Escolha uma opção (1-5)\n'
+                  + f'1. Criar nome\n'
+                  + f'2. Mostrar todos os nomes\n'
+                  + f'3. Atualizar nome\n'
+                  + f'4. Deletar nome\n'
+                  + f'5. Sair\n\n')
 
     # Criar nome (C - CREATE)
     if opcao == '1':

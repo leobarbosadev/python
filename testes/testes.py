@@ -186,3 +186,6 @@ for i in lista:
 #     print(f'O ano de nascimento da {nome} é {nascimento}.')
     
 # posicional('Brasileiro', 'Zé', 2000)
+
+
+
