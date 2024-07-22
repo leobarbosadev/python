@@ -7,3 +7,7 @@
 # qual a sua capital. Se o usuário errar a resposta, o programa será finalizado
 # apresentando quantas perguntas estão corretas.
 # Utilize ao menos uma função e não há a necessidade de modularizar o código.
+import os
+import random
+
+os.system('cls')
