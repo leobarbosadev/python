@@ -13,20 +13,21 @@ import os
 
 os.system('cls')
 
+print('-' * 40)
+print('***CADASTRO ACADEMIA***')
+print('=' * 40)
 
-soma_peso = 0
-soma_altura = 0
 
 def media_altura_peso():
+    soma_peso = 0
+    soma_altura = 0
     for aluno in clientes:
         soma_altura += aluno['altura']
         soma_peso += aluno['peso']
-    media_altura = soma_altura / len(clientes)
-    media_peso = soma_peso / len(clientes)
+    media_altura = soma_altura / len(clientes) if clientes else 0 # SE EU COLOCOAR SOMENTE if cliente POR EXEMPLO ESTOU FALALNDO SE clientes FOR VERDADEIRO
+    media_peso = soma_peso / len(clientes) if clientes else 0
     return media_altura, media_peso
     
-
-
 clientes = []
 
 while True:
@@ -49,10 +50,11 @@ print("\nLista de Clientes:")
 #     print(f"Nome: {cliente['nome']}")
 #     print(f"Altura: {cliente['altura']} metros")
 #     print(f"Peso: {cliente['peso']} kg")
-
+print("\nLista de Clientes:")
 for cliente in clientes:
     for chave, valor in cliente.items():
         print(f'{chave}: {valor}', end= ' | ')
     print()
 print()
-print(f'Média altura: {media_altura}')
+print(f'A média de altura dos alunos cadastrados é de {media_altura:.2f}m')
+print(f'A média de peso dos alunos cadastrados é de {media_peso:.3f}kg')
