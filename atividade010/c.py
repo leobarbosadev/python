@@ -12,8 +12,7 @@ import os
 os.system('cls')
 
 
-dicionario_aluno = {'nome': 'Leonardo',
-                    'matricula': '0011AB', 'nascimento': '03/09/1995'}
+dicionario_aluno = {'nome': 'Leonardo', 'matricula': '0011AB', 'nascimento': '03/09/1995'}
 
 
 def verificar_aluno():
