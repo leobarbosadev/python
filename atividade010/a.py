@@ -17,7 +17,7 @@ lista_numeros = [] # TENTAR USAR O RANDINT
 lista_par = []
 lista_impar = []
 
-for i in range (3):
+for i in range (10):
     entrada = int(input(f'Entre com o {i+1}º número: '))
     lista_numeros.append(entrada)
 print()
