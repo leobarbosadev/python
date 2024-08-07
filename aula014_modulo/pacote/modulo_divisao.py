@@ -1,12 +1,13 @@
 def dividir(a, b):
-    """_summary_
+    """Metodo para dividir 2 números
 
     Args:
-        a (_type_): _description_
-        b (_type_): _description_
+        a (Any): Dividendo
+        b (Any): Divisor
 
     Returns:
-        _type_: _description_
+        str: Mensagem de erro ou 'Ok!' se a divisão for bem-sucedida
+        any: Quociente ou None em caso de erro
     """
     if b == 0:
         return None, 'Erro de divisão'
