@@ -45,8 +45,8 @@ with open(arquivo, 'w', newline='') as arquivo_csv:
         
     # writer.writerows(lista): Gravar todas as linhas da lista no rquivo CSV
     # Cada dicionário em 'lista' se torna uma linha no arquivo.
-    escrever.writerow(lista)
+    escrever.writerows(lista)
     
 os.system('cls')
 # Exibe uma mensagem indicando que o arquivo foi gravado com sucesso.
-print(f'Arquivo {arquivo} graado com sucesso!')
+print(f'Arquivo {arquivo} gerado com sucesso!')
