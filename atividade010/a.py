@@ -6,32 +6,43 @@
 # Depois retorne duas listas com os números pares, os números ímpares,
 # a quantidade de números pares e a quantidade de números ímpares.
 
-#USAR LIST COMPREHENSION-----------------------
+#-----------------------USAR LIST COMPREHENSION-----------------------
 import os
+import random
 
 
 os.system('cls')
 
-lista_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+lista_numeros = [] # TENTAR USAR O RANDINT
 lista_par = []
 lista_impar = []
 
-def listar(*lista_numeros):
-    quantidade_par = 0
-    quantidade_impar = 0
-    for i in lista_numeros:
-        i = int(i)
-        if i % 2 == 0:
-            lista_par.append(i)
-            
-        else:
-            lista_impar.append(i)
-            
-    return quantidade_par, quantidade_impar
-
-quantidade_par, quantidade_impar = listar(*lista_numeros)
-
-print(f'A lista de par é : {lista_par} e a quantidade de números pares é {len(lista_par)}')
-print(f'A lista de ímpar é : {lista_impar} e a quantidade de números ímpares é {len(lista_impar)}')
+for i in range (10):
+    entrada = int(input(f'Entre com o {i+1}º número: '))
+    lista_numeros.append(entrada)
 print()
+
+# lista_numeros = random.randint
+
+def listar(lista_numeros):
+
+    for i in lista_numeros:
+        lista_par.append(i) if i % 2 == 0 else lista_impar.append(i)
+        # if i % 2 == 0:
+        #     lista_par.append(i)
+        # else:
+        #     lista_impar.append(i)
+
+    quantidade_par = len(lista_par)
+    quantidade_impar = len(lista_impar)
+    return lista_par, lista_impar, quantidade_par,quantidade_impar
+
+par, impar, quantidade_par, quantidade_impar = listar(lista_numeros)
+
+print(f'A lista de par é : {lista_par} e a quantidade de números pares é {quantidade_par}')
+print(f'A lista de ímpar é : {lista_impar} e a quantidade de números ímpares é {quantidade_impar}')
+print()
+
+
+
 
