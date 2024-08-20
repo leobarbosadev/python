@@ -10,7 +10,7 @@ import os
 os.system('cls')
 
 
-def converter_graus():  # SE EU NÃO PASSAR A TEMP. TBM FUNCIONA
+def converter_graus(temperatura):  # SE EU NÃO PASSAR A TEMP. TBM FUNCIONA
     temperatura_convertida = (temperatura - 32) * 5/9
 
     return temperatura_convertida
@@ -18,6 +18,6 @@ def converter_graus():  # SE EU NÃO PASSAR A TEMP. TBM FUNCIONA
 
 temperatura = float(input('Entre com a temperatura em Fahrenheit: '))
 
-convertendo = converter_graus() # SE EU NÃO PASSAR A TEMP. TBM FUNCIONA
+convertendo = converter_graus(temperatura) # SE EU NÃO PASSAR A TEMP. TBM FUNCIONA
 print(f'A temperatura {temperatura} °F é igual a {convertendo:.2f} °C')
 print()
