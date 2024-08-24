@@ -53,6 +53,7 @@ print(equacao1.calcular_raizes())
 
 print('-' * 70)
 print('Cálculo de euqação do 2º Grau')
+# print(equacao1.get_a())
 equacao1.set_a(1)
 equacao1.set_b(2)
 equacao1.set_c(1)
