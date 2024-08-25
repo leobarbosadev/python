@@ -11,7 +11,7 @@ while True:
     b = input('Entre com o valor de B: ')
     
     if not a.replace('.','',1).isdigit() or not b.replace('.','',1).isdigit():
-        print('Por favor, entre com um número válidoo.')
+        print('Por favor, entre com um número válido.')
         continue
     
     a = float(a)
