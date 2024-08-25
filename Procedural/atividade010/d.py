@@ -16,7 +16,7 @@ def converter_graus(temperatura):  # SE EU NÃO PASSAR A TEMP. TBM FUNCIONA
     return temperatura_convertida
 
 
-temperatura = float(input('Entre com a temperatura em Fahrenheit: '))
+temperatura = float(input('Entre com a temperatura em Fahrenheitt: '))
 
 convertendo = converter_graus(temperatura) # SE EU NÃO PASSAR A TEMP. TBM FUNCIONA
 print(f'A temperatura {temperatura} °F é igual a {convertendo:.2f} °C')
