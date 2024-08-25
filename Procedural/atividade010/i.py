@@ -13,7 +13,7 @@ import random
 os.system('cls')
 
 estados = [
-    {'estado': 'Acre', 'capital': 'Rio Branco0'},
+    {'estado': 'Acre', 'capital': 'Rio Branco'},
     {'estado': 'Alagoas', 'capital': 'Maceió'},
     {'estado': 'Amapá', 'capital': 'Macapá'},
     {'estado': 'Amazonas', 'capital': 'Manaus'},
