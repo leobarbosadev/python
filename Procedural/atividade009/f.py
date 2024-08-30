@@ -17,7 +17,7 @@ vinhos = {}
 lista_vinhos = []
 
 # CONTAGEM
-for c in range(2):
+for c in range(5):
     print('-' * 70)
     print('DICIONÁRIO DE VINHOS')
     print('=' * 70)
