@@ -14,7 +14,7 @@ class Notas:
         self.nota4 = nota4
         
     def calcular_media(self, nota1, nota2, nota3, nota4):
-        # Usar try except para tratar erros
+        # Usar try except para tratar erros e validar
         soma = float(nota1) + float(nota2) + float(nota3) + float(nota4)
         media = soma / 4
         return media
