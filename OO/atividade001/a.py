@@ -6,7 +6,7 @@
 import os
 
 
-
+##### VALIDAÇÃO #####
 # def validar(self, valor1, valor2, valor3):
 #         if valor1.isalpha() or valor2.isalpha() or valor3.isalpha():
 #             print('Teste')
