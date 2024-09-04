@@ -6,11 +6,12 @@
 import os
 
 
+valor_dolar= 5.65
 class Moeda:
     def __init__(self, valor):
         self.valor = valor
         
-    
+
     def converter_moeda(self):
         self.valor = float(self.valor)
         converter_real_dolar = valor_dolar * self.valor
