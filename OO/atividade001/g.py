@@ -22,4 +22,6 @@ os.system('cls')
 entrada = input('Entre com o número que deseja fazer a conversão: ')
 calcular = Calcular(entrada)
 converter_cm, converter_mm = calcular.centimetro_milimetro()
+# resultado = calcular.centimetro_milimetro()
 print(f'O número {entrada} convertido para centimetros é {converter_cm}cm e em milimetros é {converter_mm}mm')
+
