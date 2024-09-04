@@ -17,4 +17,11 @@ class Moeda:
         converter_real_dolar = valor_dolar * self.valor
         return converter_real_dolar
     
+os.system('cls')
+entrada = float(input('Entre com um valor em R$: '))
+converter = Moeda(entrada)
+resultado = converter.converter_moeda()
+print(f'R${entrada:.2f} = US${resultado}')
+
+    
     

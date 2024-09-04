@@ -9,13 +9,14 @@ import os
 class Tabuada:
     def __init__(self, valor):
         self.valor = valor
-        
+
     def calcular_tabuada(self):
         self.valor = int(self.valor)
-        for i in range(0,11):
+        for i in range(0, 11):
             resultado = self.valor * i
             print(f'{self.valor} x {i} = {resultado}', end='\n')
-            
+
+
 os.system('cls')
 entrada = input('Entre com um valor para exibir sua tabuada: ')
 tabuada = Tabuada(entrada)
