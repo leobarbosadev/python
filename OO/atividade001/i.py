@@ -6,22 +6,22 @@
 import os
 
 
-valor_dolar= 5.65
+valor_dolar = 5.65
+
+
 class Moeda:
     def __init__(self, valor):
         self.valor = valor
-        
 
     def converter_moeda(self):
         self.valor = float(self.valor)
         converter_real_dolar = valor_dolar * self.valor
         return converter_real_dolar
-    
+
+
 os.system('cls')
 entrada = float(input('Entre com um valor em R$: '))
 converter = Moeda(entrada)
 resultado = converter.converter_moeda()
-print(f'R${entrada:.2f} = US${resultado}')
-
-    
-    
+print(f'R${entrada:.2f} equivale a US${resultado}')
+print()

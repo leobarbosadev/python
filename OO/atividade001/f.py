@@ -17,8 +17,10 @@ class Calcular:
         triplo = self.valor * 3
         return dobro, triplo
 
+
 os.system('cls')
 valor = input('Entre com um valor par ver seu dobro e seu triplo: ')
 calcular = Calcular(valor)
 dobro, triplo = calcular.dobro_e_triplo()
 print(f'O dobro de {valor} é {dobro} e o triplo é {triplo}')
+print()

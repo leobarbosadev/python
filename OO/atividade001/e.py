@@ -10,17 +10,18 @@ class Antes_e_depois:
     def __init__(self, valor):
         self.valor = valor
 
-    def antecesor_sucessor(self, valor):
+    def antecesor_sucessor(self):
         # Usar try except para tratar erros e validar
-        valor = int(valor)
-        antecesor = valor - 1
-        sucessor = valor + 1
+        self.valor = int(self.valor)
+        antecesor = self.valor - 1
+        sucessor = self.valor + 1
         return antecesor, sucessor
+
 
 os.system('cls')
 valor = input('Entre com o valor par vermos seu antecessor e sucessor: ')
 adjacentes = Antes_e_depois(valor)
-antecessor, sucessor = adjacentes.antecesor_sucessor(valor)
-print(f'O antecessor de {valor} é {antecessor} e o sucessor é {sucessor}') # POSSO PASSA ISSO DENTRO DO return DO MÉTODO def antecessor_sucessor
-
-
+antecessor, sucessor = adjacentes.antecesor_sucessor()
+# POSSO PASSA ISSO DENTRO DO return DO MÉTODO def antecessor_sucessor
+print(f'O antecessor de {valor} é {antecessor} e o sucessor é {sucessor}')
+print()

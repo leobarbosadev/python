@@ -20,5 +20,6 @@ class Tabuada:
 os.system('cls')
 entrada = input('Entre com um valor para exibir sua tabuada: ')
 tabuada = Tabuada(entrada)
-print(f'Tabuada do {entrada}')
+print(f'---Tabuada do {entrada}---')
 resultado = tabuada.calcular_tabuada()
+print()

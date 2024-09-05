@@ -12,10 +12,11 @@ class Notas:
         self.nota2 = nota2
         self.nota3 = nota3
         self.nota4 = nota4
-        
-    def calcular_media(self, nota1, nota2, nota3, nota4):
+
+    def calcular_media(self):
         # Usar try except para tratar erros e validar
-        soma = float(nota1) + float(nota2) + float(nota3) + float(nota4)
+        soma = float(self.nota1) + float(self.nota2) + \
+            float(self.nota3) + float(self.nota4)
         media = soma / 4
         return media
 
@@ -26,6 +27,6 @@ nota2 = input('Entre com a segunda nota.: ')
 nota3 = input('Entre com a terceira nota: ')
 nota4 = input('Entre com a quarta nota..: ')
 notas = Notas(nota1, nota2, nota3, nota4)
-resultado = notas.calcular_media(nota1, nota2, nota3, nota4)
+resultado = notas.calcular_media()
 print(f'A média das notas {nota1}, {nota2}, {nota3}, {nota4} é: {resultado}')
-    
+print()

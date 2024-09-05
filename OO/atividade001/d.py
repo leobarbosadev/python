@@ -11,7 +11,7 @@ class Calcular:
         self.valor1 = valor1
         self.valor2 = valor2
         
-    def divisao(self, valor1, valor2):
+    def divisao(self):
         # Usar try except para tratar erros e validar
         resultado = float(valor1) / float(valor2)
         return resultado
@@ -20,5 +20,6 @@ os.system('cls')
 valor1 = input('Entre com o primeiro valor: ')
 valor2 = input('Entre com o segundo valor.: ')
 calcular = Calcular(valor1,valor2)
-resultado = calcular.divisao(valor1, valor2)
+resultado = calcular.divisao()
 print(f'A divisão de {valor1} por {valor2} é: {resultado:.4f}')
+print()
