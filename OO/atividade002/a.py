@@ -20,7 +20,7 @@ os.system('cls')
 print('-' * 80)
 print('*** DE 1 ATÉ 100 ***')
 intervalo = ExibirIntervaloEntreNumeros(1, 101) # intervalo = ExibirIntervaloEntreNumeros(1, 100)
-exibir_intervalo = intervalo.exibir()
+intervalo.exibir() # QUANDO TEMOS UM PRINT DENTO DO METODO, NÃO PRECISO ATRIBUIR O METODO A UMA VARIAVEL.
 print()
 print('=' * 80)
 print()

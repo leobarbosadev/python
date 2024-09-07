@@ -21,7 +21,7 @@ fim = (int(input('Entre com um número final: ')))
 print('-' * 80)
 print(f'*** DE 1 ATÉ {fim} ***')
 intervalo = ExibirIntervaloEntreNumeros(inicio, fim)
-exibir_intervalo = intervalo.exibir()
+intervalo.exibir() # QUANDO TEMOS UM PRINT DENTO DO METODO, NÃO PRECISO ATRIBUIR O METODO A UMA VARIAVEL.
 print()
 print('=' * 80)
 print()
