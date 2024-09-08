@@ -17,11 +17,16 @@ class Letras:
 
 class VerificarLetra(Letras):
     def verificar(self):
-        if self.letra != 'f'.lower():
-            self.letra = (
-                'Estou em Looping... digite uma letra [f - Finalizar]: ')
-        else:
-            print('Aplicação finalizada\n')
+    #     if self.letra != 'f'.lower():
+    #         self.letra = (
+    #             'Estou em Looping... digite uma letra [f - Finalizar]: ')
+    #     else:
+    #         print('Aplicação finalizada\n')
+        while True:
+            self.letra = input('Estou em Looping... digite uma letra [f - Finalizar]: ').lower()
+            if self.letra == 'f'.lower():
+                print('Aplicação finalizada\n')
+                break
 
 
 os.system('cls')
@@ -29,15 +34,8 @@ os.system('cls')
 print('-' * 80)
 print('*** ESTOU EM LOOPING ***')
 print('=' * 80)
-
-while (True):
-    letra = input(
-        'Estou em Looping... digite uma letra [f - Finalizar]: ').lower()
-    if letra != 'f'.lower():
-        letras = VerificarLetra(letra)
-        letras.verificar()
-    else:
-        print('Aplicação finalizada\n')
-        break
+letra = input('Estou em Looping... digite uma letra [f - Finalizar]: ').lower()
+letras = VerificarLetra(letra)
+letras.verificar()
 print('-' * 80)
 print()
