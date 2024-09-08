@@ -11,13 +11,10 @@ class Numeros:
 
 class ExibirPares(Numeros):  # subclasse ou classe classe derivada
     def exibir(self):
-        i = 0
         for c in range(0, 101):
             par = c % 2 == 0
             if par == True:
-                i += 1
                 print(c, end=' | ')
-        print(f'\nA quantidade de pares é: {i}')
 
 
 os.system('cls')

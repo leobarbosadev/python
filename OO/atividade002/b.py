@@ -17,7 +17,7 @@ class ExibirIntervaloEntreNumeros(Intervalo):
 
 os.system('cls')
 inicio = int(input('Entre com um número inicial: '))
-fim = (int(input('Entre com um número final: ')))
+fim = int(input('Entre com um número final: '))
 print('-' * 80)
 print(f'*** DE 1 ATÉ {fim} ***')
 intervalo = ExibirIntervaloEntreNumeros(inicio, fim)

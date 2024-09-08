@@ -17,7 +17,7 @@ for c in range(inicio, fim):
     if impar == True:
         quantidade_impar += 1
         soma += c
-    print(c,end=' | ')
+        print(c,end=' | ')
 print()
 print(quantidade_impar)
 print(soma)

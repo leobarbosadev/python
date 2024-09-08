@@ -12,7 +12,7 @@ class Intervalo:
 class ExibirIntervaloEntreNumeros(Intervalo):
     def exibir(self):
         for c in range(self.inicio, self.fim):  # for c in range(0, 100)
-            print(f'{c}', end=',')  # print(f'{c + 1}', end=',')
+            print(f'{c}', end=' | ')  # print(f'{c + 1}', end=',')
 
 
 os.system('cls')
