@@ -13,15 +13,16 @@ import os
 class Letras:
     def __init__(self, letra):
         self.letra = letra
-        
+
     def verificar(self):
-        print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
+        # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
+        print('Não vai imprimir nada')
 
 
 class VerificarLetra(Letras):
     def __init__(self, letra):
         self.letra = letra
-        
+
     def verificar(self):
         while True:
             self.letra = input('Estou em Looping... digite uma letra [f - Finalizar]: ').lower()
