@@ -18,7 +18,7 @@ class Letras: # superclasse ou classe pai
         print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
 
 
-class VerificarLetra(Letras): # subclasse ou classe classe derivada
+class VerificarLetra(Letras):
     def __init__(self, letra):
         self.letra = letra
 

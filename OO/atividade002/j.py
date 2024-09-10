@@ -4,6 +4,41 @@
 import os
 
 
+class Numeros:  # subclasse ou classe classe derivada
+    def __init__(self, inicio, fim):
+        self.inicio = inicio
+        self.fim = fim
+
+    def mostrar(self, inicio, fim):
+        print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
+
+
+class MostrarImpar(Numeros):  # subclasse ou classe classe derivada
+    def __init__(self, inicio=1, fim=100):
+        self.inicio = inicio
+        self.fim = fim
+
+    def mostrar(self):
+        quantidade_impar = 0
+        c = 0
+        soma = 0
+        for c in range(self.inicio, self.fim):
+            impar = c % 2 != 0
+            if impar == True:
+                quantidade_impar += 1
+                soma += c
+                print(c, end=' | ')
+        print()
+        print(f'\nA soma dos numeros impares entre 1 e 100 é: {soma} '
+              + f'\nA quantidade de numeros impares entre 1 e 100 é: {quantidade_impar}')
+
+
+os.system('cls')
+exibir_impar = MostrarImpar(1, 100)
+exibir_impar.mostrar()
+print()
+
+############# JEITO QUE EU TINHA FEITO #############
 # class Numeros:
 #     def __init__(self, inicio=1, fim=100):
 #         self.inicio = inicio
@@ -29,37 +64,3 @@ import os
 
 #         Numeros.exibir_quantidade(quantidade_impar)
 #         Numeros.exibir_soma(soma)
-
-class Numeros: # subclasse ou classe classe derivada
-    def __init__(self, inicio, fim):
-        self.inicio = inicio
-        self.fim = fim
-
-    def mostrar(self, inicio, fim):
-        print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
-
-
-class MostrarImpar(Numeros): # subclasse ou classe classe derivada
-    def __init__(self, inicio=1, fim=100):
-        self.inicio = inicio
-        self.fim = fim
-
-    def mostrar(self):
-        quantidade_impar = 0
-        c = 0
-        soma = 0
-        for c in range(self.inicio, self.fim):
-            impar = c % 2 != 0
-            if impar == True:
-                quantidade_impar += 1
-                soma += c
-                print(c, end=' | ')
-        print()
-        print(f'\nA soma dos numeros impares entre 1 e 100 é: {soma} '
-              + f'\nA quantidade de numeros impares entre 1 e 100 é: {quantidade_impar}')
-
-
-os.system('cls')
-exibir_impar = MostrarImpar(1, 100)
-exibir_impar.mostrar()
-print()

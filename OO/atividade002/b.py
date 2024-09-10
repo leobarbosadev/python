@@ -3,17 +3,6 @@
 import os
 
 
-# class Intervalo:
-#     def __init__(self, inicio, fim):
-#         self.inicio = inicio
-#         self.fim = fim
-
-
-# class ExibirIntervaloEntreNumeros(Intervalo):
-#     def exibir(self):
-#         for c in range(self.inicio, self.fim + 1):  # for c in range(0, 100)
-#             print(f'{c}', end=' | ')  # print(f'{c + 1}', end=',')
-
 class Intervalo: # superclasse ou classe pai
     def __init__(self, inicio, fim):
         self.inicio = inicio
@@ -42,3 +31,15 @@ intervalo.exibir() # QUANDO TEMOS UM PRINT DENTO DO METODO, NÃO PRECISO ATRIBUI
 print()
 print('=' * 80)
 print()
+
+############# JEITO QUE EU TINHA FEITO #############
+# class Intervalo:
+#     def __init__(self, inicio, fim):
+#         self.inicio = inicio
+#         self.fim = fim
+
+
+# class ExibirIntervaloEntreNumeros(Intervalo):
+#     def exibir(self):
+#         for c in range(self.inicio, self.fim + 1):  # for c in range(0, 100)
+#             print(f'{c}', end=' | ')  # print(f'{c + 1}', end=',')

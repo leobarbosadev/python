@@ -2,16 +2,6 @@
 
 import os
 
-# class Apresentar:
-#     def __init__(self, inicio, fim):
-#         self.inicio = inicio
-#         self.fim = fim
-
-
-# class Intervalo(Apresentar):
-#     def exibir_numeros(self):
-#         for c in range(10, 0, -1):
-#             print(f'Contador {c}')
 
 class Apresentar: # superclasse ou classe pai
     def __init__(self, inicio, fim):
@@ -36,3 +26,15 @@ os.system('cls')
 print('CONTAGEM REGRESSIVA')
 intervalo = Intervalo(1, 10)
 intervalo.exibir_numeros()
+
+############# JEITO QUE EU TINHA FEITO #############
+# class Apresentar:
+#     def __init__(self, inicio, fim):
+#         self.inicio = inicio
+#         self.fim = fim
+
+
+# class Intervalo(Apresentar):
+#     def exibir_numeros(self):
+#         for c in range(10, 0, -1):
+#             print(f'Contador {c}')
