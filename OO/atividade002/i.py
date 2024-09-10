@@ -13,9 +13,15 @@ import os
 class Letras:
     def __init__(self, letra):
         self.letra = letra
+        
+    def verificar(self):
+        print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
 
 
 class VerificarLetra(Letras):
+    def __init__(self, letra):
+        self.letra = letra
+        
     def verificar(self):
     #     if self.letra != 'f'.lower():
     #         self.letra = (
