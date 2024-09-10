@@ -23,11 +23,6 @@ class VerificarLetra(Letras):
         self.letra = letra
         
     def verificar(self):
-    #     if self.letra != 'f'.lower():
-    #         self.letra = (
-    #             'Estou em Looping... digite uma letra [f - Finalizar]: ')
-    #     else:
-    #         print('Aplicação finalizada\n')
         while True:
             self.letra = input('Estou em Looping... digite uma letra [f - Finalizar]: ').lower()
             if self.letra == 'f'.lower():
