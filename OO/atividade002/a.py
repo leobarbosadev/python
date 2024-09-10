@@ -14,7 +14,7 @@ import os
 #         for c in range(self.inicio, self.fim):  # for c in range(0, 100)
 #             print(f'{c}', end=' | ')  # print(f'{c + 1}', end=',')
 
-class Intervalo:  # superclasse ou classe pai
+class Intervalo: # superclasse ou classe pai
     def __init__(self, inicio, fim):
         self.inicio = inicio
         self.fim = fim

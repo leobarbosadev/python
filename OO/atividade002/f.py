@@ -18,7 +18,7 @@ import os
 #             if contador == 2:
 #                 print(f'{c}', end=' | ')
                 
-class Numeros:
+class Numeros: # superclasse ou classe pai
     def __init__(self, inicio, fim):
         self.inicio = inicio
         self.fim = fim

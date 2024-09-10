@@ -8,7 +8,7 @@ import os
 #         self.fim = fim
 
 
-# class ExibirPares(Numeros):  # subclasse ou classe classe derivada
+# class ExibirPares(Numeros): # subclasse ou classe classe derivada
 #     def exibir(self):
 #         for c in range(0, 101):
 #             par = c % 2 == 0

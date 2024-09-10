@@ -31,7 +31,7 @@ import os
 #                 continue
 #             print(c, end=' | ')
 
-class Numeros:  # superclasse ou classe pai
+class Numeros: # superclasse ou classe pai
     def __init__(self, inicio, final, numero_1, numero_2, numero_3):
         self.inicio = inicio
         self.fim = final
@@ -40,11 +40,10 @@ class Numeros:  # superclasse ou classe pai
         self.numero_3 = numero_3
 
     def excluir(self, inicio, final, numero_1, numero_2, numero_3):
-        # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
-        print('Não vai imprimir nada')
+        print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
 
 
-class ExcluirNumeros(Numeros):  # subclasse ou classe classe derivada
+class ExcluirNumeros(Numeros): # subclasse ou classe classe derivada
     def __init__(self, inicio, final, numero_1, numero_2, numero_3):
         self.inicio = inicio
         self.fim = final

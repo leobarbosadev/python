@@ -16,7 +16,7 @@ import os
 #             print(f'A palavra ou frase {self.frase}, não é palíndromo')
 
 
-class Frase:
+class Frase: # superclasse ou classe pai
     def __init__(self, frase):
         self.frase = frase
 
@@ -24,7 +24,7 @@ class Frase:
         print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
 
 
-class VerificarPalindromo(Frase):
+class VerificarPalindromo(Frase): # subclasse ou classe classe derivada
     def __init__(self, frase):
         self.frase = frase
 

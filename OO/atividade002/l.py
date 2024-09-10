@@ -19,7 +19,7 @@ import os
 #                 print('Acesso negado')
 #                 break
 
-class Login:
+class Login: # superclasse ou classe pai
     def __init__(self, usuario, senha):
         self.usuario = usuario
         self.senha = senha
@@ -27,7 +27,7 @@ class Login:
     def verificar(self, usuario, senha):
         print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
         
-class VerificarLogin(Login):
+class VerificarLogin(Login): # subclasse ou classe classe derivada
     def __init__(self, usuario, senha):
         self.usuario = usuario
         self.senha = senha

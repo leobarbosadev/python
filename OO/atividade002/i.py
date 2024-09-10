@@ -10,7 +10,7 @@
 import os
 
 
-class Letras:
+class Letras: # superclasse ou classe pai
     def __init__(self, letra):
         self.letra = letra
 
@@ -18,7 +18,7 @@ class Letras:
         print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
 
 
-class VerificarLetra(Letras):
+class VerificarLetra(Letras): # subclasse ou classe classe derivada
     def __init__(self, letra):
         self.letra = letra
 

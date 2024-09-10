@@ -30,17 +30,16 @@ import os
 #         Numeros.exibir_quantidade(quantidade_impar)
 #         Numeros.exibir_soma(soma)
 
-class Numeros:
+class Numeros: # subclasse ou classe classe derivada
     def __init__(self, inicio, fim):
         self.inicio = inicio
         self.fim = fim
 
     def mostrar(self, inicio, fim):
-        # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
-        print('Não vai imprimir nada')
+        print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
 
 
-class MostrarImpar(Numeros):
+class MostrarImpar(Numeros): # subclasse ou classe classe derivada
     def __init__(self, inicio=1, fim=100):
         self.inicio = inicio
         self.fim = fim
