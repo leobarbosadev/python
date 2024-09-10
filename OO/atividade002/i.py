@@ -14,9 +14,8 @@ class Letras:
     def __init__(self, letra):
         self.letra = letra
 
-    def verificar(self):
-        # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
-        print('Não vai imprimir nada')
+    def verificar(self, letra):
+        print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
 
 
 class VerificarLetra(Letras):

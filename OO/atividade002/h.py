@@ -39,7 +39,7 @@ class Numeros:  # superclasse ou classe pai
         self.numero_2 = numero_2
         self.numero_3 = numero_3
 
-    def excluir(self):
+    def excluir(self, inicio, final, numero_1, numero_2, numero_3):
         # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
         print('Não vai imprimir nada')
 

@@ -3,12 +3,35 @@
 import os
 
 
+# class Login:
+#     def __init__(self, usuario, senha):
+#         self.usuario = usuario
+#         self.senha = senha
+        
+# class VerificarLogin(Login):
+#     def verifica(self):
+#         while True:
+#             if (self.usuario == 'leonardo' and self.senha == '1234'):
+#                 print('Acesso permitido, Bem-vindo')
+#                 print()
+#                 break
+#             else:
+#                 print('Acesso negado')
+#                 break
+
 class Login:
     def __init__(self, usuario, senha):
         self.usuario = usuario
         self.senha = senha
         
+    def verificar(self, usuario, senha):
+        print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
+        
 class VerificarLogin(Login):
+    def __init__(self, usuario, senha):
+        self.usuario = usuario
+        self.senha = senha
+        
     def verifica(self):
         while True:
             if (self.usuario == 'leonardo' and self.senha == '1234'):
@@ -17,6 +40,7 @@ class VerificarLogin(Login):
                 break
             else:
                 print('Acesso negado')
+                print()
                 break
 
 
