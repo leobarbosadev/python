@@ -3,13 +3,30 @@
 import os
 
 
-class Intervalo:
+# class Intervalo:
+#     def __init__(self, inicio, fim):
+#         self.inicio = inicio
+#         self.fim = fim
+
+
+# class ExibirIntervaloEntreNumeros(Intervalo):
+#     def exibir(self):
+#         for c in range(self.inicio, self.fim + 1):  # for c in range(0, 100)
+#             print(f'{c}', end=' | ')  # print(f'{c + 1}', end=',')
+
+class Intervalo: # superclasse ou classe pai
     def __init__(self, inicio, fim):
         self.inicio = inicio
         self.fim = fim
+    
+    def exibir(self, inicio, fim):
+        print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
 
 
-class ExibirIntervaloEntreNumeros(Intervalo):
+class ExibirIntervaloEntreNumeros(Intervalo): # subclasse ou classe classe derivada
+    def __init__(self, inicio, fim):
+        self.inicio = inicio
+        self.fim = fim
     def exibir(self):
         for c in range(self.inicio, self.fim + 1):  # for c in range(0, 100)
             print(f'{c}', end=' | ')  # print(f'{c + 1}', end=',')
