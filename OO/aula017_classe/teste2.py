@@ -1,21 +1,22 @@
-class ClassePai:  # criação da classe pai
+class ClassePai:
     def __init__(self, a, b):  # metodo construtor
         # iniciar os atributos
         self.a = a
         self.b = b
 
 
-class ClasseFilha(ClassePai):  # classe filha herda de classe pai
-    def __init__(self, a, b):  # metodo construtor da super classe
+class ClasseFilha(ClassePai):
+    def __init__(self, a, b):  # metodo construtor da classe pai
         # iniciar os atributos
         self.a = a
         self.b = b
 
-    def metodo_classe_filha(self): # metodo da classe filha
-        print('Soma')
-        soma = self.a + self.b
-        print(f'A soma de {self.a} + {self.b} = {soma}')
+    def metodo_classe_filha(self):
+        print('Subtracao')
+        subtracao = self.a - self.b
+        print(f'O resultado é: {subtracao}')
 
 
-exibe = ClasseFilha(1, 2) # instanciando o objeto
-exibe.metodo_classe_filha() # executando o metodo da classe filha
+# instaciando um objeto e passando valores para os atributos
+exibir = ClasseFilha(10, 2)
+exibir.metodo_classe_filha()
