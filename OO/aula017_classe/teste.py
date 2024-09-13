@@ -12,7 +12,7 @@ class ClasseFilha(ClassePai):
         self.b = b
 
     def metodo_classe_filha(self):
-        print('Subtracao')
+        print('Subtracaoooo')
         subtracao = self.a - self.b
         print(f'O resultado é: {subtracao}')
 
