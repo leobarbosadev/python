@@ -4,19 +4,21 @@
 import os
 
 
-class Numeros:
+class Numeros:  # subclasse ou classe classe derivada
+    def __init__(self, inicio, fim):
+        self.inicio = inicio
+        self.fim = fim
+
+    def mostrar(self, inicio, fim):
+        print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
+
+
+class MostrarImpar(Numeros):  # subclasse ou classe classe derivada
     def __init__(self, inicio=1, fim=100):
         self.inicio = inicio
         self.fim = fim
 
-    def exibir_quantidade(valores):
-        print(f'\nA quantidade de números impares de  a 100 é: {valores}')
-
-    def exibir_soma(soma):
-        print(f'A soma dos números impares de  a 100 é: {soma}')
-
-class MostrarImpar(Numeros):
-    def exibir_impares(self):
+    def mostrar(self):
         quantidade_impar = 0
         c = 0
         soma = 0
@@ -26,12 +28,39 @@ class MostrarImpar(Numeros):
                 quantidade_impar += 1
                 soma += c
                 print(c, end=' | ')
-
-        Numeros.exibir_quantidade(quantidade_impar)
-        Numeros.exibir_soma(soma)
+        print()
+        print(f'\nA soma dos numeros impares entre 1 e 100 é: {soma} '
+              + f'\nA quantidade de numeros impares entre 1 e 100 é: {quantidade_impar}')
 
 
 os.system('cls')
-mostrar = MostrarImpar(1, 100)
-mostrar.exibir_impares()
+exibir_impar = MostrarImpar(1, 100)
+exibir_impar.mostrar()
 print()
+
+############# JEITO QUE EU TINHA FEITO #############
+# class Numeros:
+#     def __init__(self, inicio=1, fim=100):
+#         self.inicio = inicio
+#         self.fim = fim
+
+#     def exibir_quantidade(valores):
+#         print(f'\nA quantidade de números impares de  a 100 é: {valores}')
+
+#     def exibir_soma(soma):
+#         print(f'A soma dos números impares de  a 100 é: {soma}')
+
+# class MostrarImpar(Numeros):
+#     def exibir_impares(self):
+#         quantidade_impar = 0
+#         c = 0
+#         soma = 0
+#         for c in range(self.inicio, self.fim):
+#             impar = c % 2 != 0
+#             if impar == True:
+#                 quantidade_impar += 1
+#                 soma += c
+#                 print(c, end=' | ')
+
+#         Numeros.exibir_quantidade(quantidade_impar)
+#         Numeros.exibir_soma(soma)

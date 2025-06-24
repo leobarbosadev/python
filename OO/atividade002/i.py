@@ -10,18 +10,19 @@
 import os
 
 
-class Letras:
+class Letras: # superclasse ou classe pai
     def __init__(self, letra):
         self.letra = letra
 
+    def verificar(self, letra):
+        print('Não vai imprimir nada') # Vai ser sobrecarregado, para mostrar na tela, tenho que usar o super
+
 
 class VerificarLetra(Letras):
+    def __init__(self, letra):
+        self.letra = letra
+
     def verificar(self):
-    #     if self.letra != 'f'.lower():
-    #         self.letra = (
-    #             'Estou em Looping... digite uma letra [f - Finalizar]: ')
-    #     else:
-    #         print('Aplicação finalizada\n')
         while True:
             self.letra = input('Estou em Looping... digite uma letra [f - Finalizar]: ').lower()
             if self.letra == 'f'.lower():
